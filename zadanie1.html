@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ZADANIE 1
+        var imie = prompt("Witaj! Jak masz na imię?" , "...");
+        document.write("Cześć " + imie );
+        // ZADANIE 2
+        var liczba1 = prompt("Witaj! Wybierz pierwszą liczbę : " , "...");
+        var liczba2 = prompt("Witaj! Wybierz drugą lizbę " , "...");
+
+        var dodawanie = (parseInt(liczba1 )+ parseInt (liczba2) );
+        var odejmowanie = liczba1 - liczba2;
+        var mnozenie = liczba1 * liczba2;
+        var dzielenie = liczba1 / liczba2;
+         document.write("<br>Wynik z dodawania tych liczb jest równy : " + dodawanie );
+         document.write("<br>Wynik z odejmowania tych liczb jest równy : " + odejmowanie );
+         document.write("<br>Wynik z mnożenia tych liczb jest równy : " + mnozenie );
+         document.write("<br>Wynik z dzielenia tych liczb jest równy : " + dzielenie ); 
+        // ZADANIE 3
+        var wzrost = prompt(" Ile masz wzrostu ? (cm)" , );
+        if( wzrost > 180)
+        {
+            document.write(" <br>Jesteś Wysokiego wzrostu");
+        }       
+        else if (wzrost > 165 && wzrost < 180)
+        {
+            document.write(" <br>Jesteś Średniego wzrostu");
+        }
+        else
+        {
+            document.write(" <br>Jesteś niskiego wzrostu");
+        }
+        //ZADANIE 4
+        var rokurodzenia = prompt("Podaj rok w którym się urodziłeś : " ,);
+        var wiek = 2023 - rokurodzenia;
+        document.write("<br>Aktualnie masz : " + wiek + "lat");
+        //ZADANIE 5 
+        if ( wiek < 18)
+        {
+            document.write("<br>Jesteś niepełnoletni!")
+        }
+        else
+        {
+            document.write("<br>Jesteś pełnoletni")
+        }
+        //ZADANIE 6
+        var option = prompt( "Wybierz opdje:1. z C na F; 2. F na C " , );
+        var temperatura = prompt("podaj temperature" , );
+        if(option==1)
+        {
+            document.write("<br>z C na F jest :" + (temperatura*5/9+32) );
+        }
+        else if (option==2)
+        {
+            document.write("<br>z F na C jest :" + ((temperatura - 32)*5/9) );
+        }
+    </script>
+</body>
+</html>
