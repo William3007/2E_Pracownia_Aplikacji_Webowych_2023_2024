@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var option = prompt( "Wybierz opdje:1. z C na F; 2. F na C " , );
+        var temperatura = prompt("podaj temperature" , );
+        if(option==1)
+        {
+            document.write("<br>z C na F jest :" + (temperatura*9/5+32) );
+        }
+        else if (option==2)
+        {
+            document.write("<br>z F na C jest :" + ((temperatura - 32)*5/9) );
+        }
+    </script>
+</body>
+</html>

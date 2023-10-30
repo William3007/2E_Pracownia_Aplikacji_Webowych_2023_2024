@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var vat,netto,brutto;
+        var option = prompt("1- z Netto na Brutto; 2 - z Brutto na Netto","1or2");
+        if( option != 1 && option != 2)
+            alert("Zle podane liczby")
+        else if(option == 1)
+        {
+            vat = prompt("Podaj procent vat","...");
+            netto= prompt("Podaj cene netto", "...");
+            brutto = parseInt(netto) + (netto * vat/100);
+            alert("Netto na Brutt wynposi: " + brutto);
+        }else if (option ==2)
+        {
+            vat = prompt("Podaj procent vat","...");
+            brutto= prompt("Podaj cene brutto", "...");
+            netto = brutto / ( parseInt(vat) / 100 + 1 );
+            alert(" Z brutto na netto wynosi: " + netto);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        var netto = prompt("Podaj cene NETTO", "...");
+        var vat = prompt("Podaj procent VAT", "...");
+        if(netto < 1 || vat < 1 || vat > 100)
+            alert("Zle podales liczby");
+        else 
+        {
+          var brutoo =  parseInt(netto) + (netto * vat/100);  
+          alert("Brutto wynosi: " + brutto);
+        }
+    </script>
+</body>
+</html>
