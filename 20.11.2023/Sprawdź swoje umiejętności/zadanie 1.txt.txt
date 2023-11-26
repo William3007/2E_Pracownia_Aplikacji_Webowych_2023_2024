@@ -1,0 +1,4 @@
+Zalety: 
+Szybka modyfikacja, można stosować jeden plik w kilku programach na raz, "porządek w kodzie".
+Wady:
+Nie widoczność kodu(trzeba wchodzić do osobnego pliku), szansa na przepadkowe usunięcie, droga do pliku musi być zawsze taka sama. 
