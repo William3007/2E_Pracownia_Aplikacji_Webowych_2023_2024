@@ -1,0 +1,3 @@
+1.Wtedy kiedy są tylko 2 warunki np True or False 
+2.Wtedy kiedy są więcej niż 2 warunki np warunki dla dni tygodni 
+3.Wtedy kiedy są tylko 2 warunki np True or False, ale skrucony zapis 2 warunków

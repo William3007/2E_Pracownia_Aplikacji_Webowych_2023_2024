@@ -1,0 +1,52 @@
+=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=prompt("Podaj a" , "...");
+        var b=prompt("Podaj b" , "...");
+        var c=prompt("Podaj c" , "...");
+        document.write("Chronologiczne liczby to: ");
+        if(a >b && a > c)
+        {
+            document.write(+a);
+            if ( b > c)
+            {
+                document.write(+b, +c);
+            }
+            else
+            {
+                document.write(+c , +b);
+            }
+        }
+        else if (b > a && b > c)
+        {
+            document.write(+b);
+            if ( a > c)
+            {
+                document.write(+a, +c);
+            }
+            else
+            {
+                document.write(+c , +a);
+            }
+        }
+        else if( c >b && c > a)
+        {
+            document.write(+c);
+            if ( b > a)
+            {
+                document.write(+b, +a);
+            }
+            else
+            {
+                document.write(+a , +b);
+            }
+        }
+    </script>
+</body>
+</html>
