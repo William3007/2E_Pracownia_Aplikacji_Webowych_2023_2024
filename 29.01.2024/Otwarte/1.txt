@@ -1,0 +1,3 @@
+for - kiedy trzeba wykonać coś ilość razy ile chcemy znamy liczbe wykonań 
+while - trzeba powtzrzać póki nie bedzie warunek false nie znamy liczby wykonań  
+do while - wykona a potem spradzi warunek i bedzie wykonywacz póki warunek true musi przynajmniej raz być wykonana

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var reszta = prompt("Podaj reszte: ");
+        var liczbaPiec =0;
+        var liczbaDwa =0;
+        var liczbaZl =0;
+        var liczba50grosz =0;
+        var liczba10grosz =0;
+        var liczbagrosz =0;
+        while (reszta >= 5)
+        {
+            reszta = reszta - 5;
+            liczbaPiec ++;
+        }
+        while(reszta >= 2)
+        {
+            reszta = reszta - 2 ;
+            liczbaDwa ++;
+        }
+
+        while(reszta >= 1 )
+        {
+            reszta = reszta - 1;
+            liczbaZl++;
+        }
+
+        while(reszta >= 0.5 )
+        {
+            reszta = reszta - 0.5;
+            liczba50grosz++;
+        }
+
+        while(reszta >= 0.1 )
+        {
+            reszta = reszta - 0.1;
+            liczba10grosz++;
+        }
+
+        while(reszta >= 0.01 )
+        {
+            reszta = reszta - 0.01;
+            liczbagrosz++;
+        }  
+        
+       if(liczbaPiec != 0)
+       {
+       document.write ("Potrzebnych Piatek = " + liczbaPiec+ "<br>");
+       }
+       if(liczbaDwa != 0)
+       {
+       document.write ("Potrzebnych Dwujek = " + liczbaDwa+ "<br>");
+       }
+       if(liczbaZl != 0)
+       {
+       document.write ("Potrzebnych Jedynek = " + liczbaZl+ "<br>");
+       }
+       if(liczba50grosz != 0)
+       {
+       document.write ("Potrzebnych 50 groszy  = " + liczba50grosz+ "<br>");
+        }
+       if(liczba10grosz != 0)
+       {
+       document.write ("Potrzebnych 10 groszy  = " + liczba10grosz+ "<br>");
+        }
+       if(liczbagrosz != 0)
+       {
+       document.write ("Potrzebnych 1 groszy (~) = " + liczbagrosz+ "<br>");
+        }   
+    </script>
+</body>
+</html>
