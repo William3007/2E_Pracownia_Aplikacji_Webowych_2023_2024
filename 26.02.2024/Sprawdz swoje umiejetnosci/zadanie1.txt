@@ -1,0 +1,3 @@
+1.Kiedy potrzebujemy dla programu tylko jedno imie i nazwisko 
+2.Kiedy potrzebujemy wiecej niz jedno imie i nazwisko 
+3.Dla logicznego opisywania lub znajdywania tablicy np. przy farbach kolor blue bedzie blue a nie 1 
