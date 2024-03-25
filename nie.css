@@ -1,0 +1,52 @@
+.header
+{
+    max-height: 1000px;
+    background-color: rgb(228, 209, 209);
+    margin: 15px;
+    font-size : 50px;
+    text-align: center;
+}
+
+.nav
+{
+    text-align: center;
+    max-height : 1000px;
+    background-color : green;
+    margin : 15px;
+    font-size : 50px;
+}
+.a__nav
+{
+    margin : 50px;
+    font-size : 50px;
+    text-align : center;
+    color : black ;
+}
+.main
+{
+    text-align : center;
+    max-height : 1000px;
+    background-color: red;
+    margin : 15px;
+
+}
+.section
+{
+    text-align : left;
+    max-height : 1000px;
+    background-color: lightblue;
+    margin : 15px;
+    font-size : 50px ;
+    margin-left : 20px;
+    margin-right : 20px;
+    margin-top: 20px;
+    margin-bottom : 20px
+}
+.footer
+{
+    text-align: center;
+    max-height : 100px;
+    background-color : burlywood;
+    margin : 15px;
+    font-size : 50px;
+}

@@ -1,0 +1,27 @@
+.header
+{
+    background: white;
+}
+
+.login__input 
+{
+    padding : 5px 10px;
+    border: 1px solid gray;
+}
+
+.login__input--password
+{
+    border: 1px solid blue;
+}
+
+.login__button
+{
+    color : white;
+    background : green ;
+    border-radius : 3px;
+}
+
+.login__button--cancel
+{
+    background: purple;
+}
