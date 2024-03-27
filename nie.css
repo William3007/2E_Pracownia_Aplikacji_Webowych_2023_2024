@@ -1,7 +1,7 @@
 .header
 {
-    max-height: 1000px;
-    background-color: rgb(228, 209, 209);
+    max-height: 100%;
+    background-color: rgb(89, 80, 212);
     margin: 15px;
     font-size : 50px;
     text-align: center;
@@ -10,31 +10,32 @@
 .nav
 {
     text-align: center;
-    max-height : 1000px;
-    background-color : green;
+    max-height : 100%;
+    background-color : black;
     margin : 15px;
     font-size : 50px;
 }
 .a__nav
 {
+    text-decoration: none;
     margin : 50px;
     font-size : 50px;
     text-align : center;
-    color : black ;
+    color : lightyellow ;
 }
 .main
 {
     text-align : center;
-    max-height : 1000px;
-    background-color: red;
+    max-height : 100%;
+    background-color:rgb(168, 10, 168) ;
     margin : 15px;
 
 }
 .section
 {
     text-align : left;
-    max-height : 1000px;
-    background-color: lightblue;
+    max-height : 100%;
+    background-color: rgb(218, 65, 218);
     margin : 15px;
     font-size : 50px ;
     margin-left : 20px;
@@ -45,7 +46,7 @@
 .footer
 {
     text-align: center;
-    max-height : 100px;
+    max-height : 100%;
     background-color : burlywood;
     margin : 15px;
     font-size : 50px;
