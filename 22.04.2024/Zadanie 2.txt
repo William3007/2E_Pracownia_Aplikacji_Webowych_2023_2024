@@ -1,0 +1,2 @@
+onMouseOut — występuje, gdy kursor myszy został przesunięty poza element.
+onMouseOver — występuje, gdy kursor myszy został umieszczony na elemencie.

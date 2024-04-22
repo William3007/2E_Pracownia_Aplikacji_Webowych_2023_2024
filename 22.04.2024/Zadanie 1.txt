@@ -1,0 +1,5 @@
+1.Po załadowaniu strony może wyświetlać jakiś komunikat
+2.Po wysłaniu czegoś może wyświetlać jakiś komunikat
+3.Po kliknięciu myszką może wyświelać jakiś komunikat
+4.Po najechaniu myszką może zmieniać np. tekst kolor
+5.Po zjechaniu myszką może zmieniać np. tekst kolor
